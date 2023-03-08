@@ -33,3 +33,18 @@ streamlit run app/streamlit_app.py
 
 ### Play with the application
 - Go to http://localhost:8501
+
+
+## Locally with Docker
+### Build
+```bash
+docker build -t devops_pipeline .
+```
+
+### Run
+```bash
+docker run -p 8501:8501 devops_pipeline
+```
+
+### Play with the application
+- Go to http://localhost:8501
