@@ -5,8 +5,8 @@ Experimenting a full devops pipeline.
 The idea is to:
 - Runner a streamlit application inside a docker container
 - Implement a GitLab Flow with main and production branches
-- Deploy the prodcution branch in Google Cloud environment
-- Automatize deployment of the prod branch with a Github Action workflow
+- Deploy the production branch with fly.io
+- Automatize deployment of the production branch with a Github Action workflow
 
 
 Application feature:
@@ -49,6 +49,6 @@ docker run -p 8501:8501 devops_pipeline
 - Go to http://localhost:8501
 
 
-## In Google Cloud Platform
-Tutorial: https://www.youtube.com/watch?v=6dLHcnlPi_U
-Tools: GCR, 
+## Deployed with fly.io
+### Play with the application
+- Go to https://devops-pipeline.fly.dev
