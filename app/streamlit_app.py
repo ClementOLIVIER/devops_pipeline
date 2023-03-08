@@ -3,7 +3,7 @@ from runner_page import runner_page
 
 st.set_page_config(
     page_title="Runner Page",
-    page_icon="..."
+    page_icon="🚀"
 )
 
 
