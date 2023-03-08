@@ -13,7 +13,6 @@ config_directory = os.path.join(file_directory, '../config')
 
 
 def main(auth_path):
-    print(auth_path)
     st.title('Runner Page')
 
     # Login Page
@@ -23,6 +22,7 @@ def main(auth_path):
     # Runner Page
     if authentication_status is None:
         st.warning("Enter your username and password")
+        st.info("Username: clementolivier | Password: SuchAS€cureP@ssw°rd")
     elif authentication_status:
         st.write(f'Hello, your are logged in as *{name}*')
         authenticator.logout('Logout', 'main')
@@ -30,6 +30,7 @@ def main(auth_path):
         runner_page()
     else:
         st.error("Username and/or password incorrect")
+        st.info("Username: clementolivier | Password: SuchAS€cureP@ssw°rd")
 
 
 if __name__ == "__main__":

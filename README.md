@@ -14,9 +14,9 @@ Application feature:
 - Run a dummy function (that prints anything)
 
 ## Credentials
-**login**: clementolivier
+**Username**: clementolivier
 
-**password**: SuchAS€cureP@ssw°rd
+**Password**: SuchAS€cureP@ssw°rd
 
 
 # Run the application
