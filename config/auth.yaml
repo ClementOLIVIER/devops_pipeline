@@ -1,0 +1,13 @@
+credentials:
+  usernames:
+    clementolivier:
+      email: clementolivier@devops.com
+      name: Clément OLIVIER
+      password: $2b$12$dOcqOM2Me2oaV6uNJLNAjeRzrhZpSAUN7QoTRlUGVOgjTec0hk4Xi
+cookie:
+  expiry_days: 0
+  key: some_signature_key # Must be string
+  name: some_cookie_name
+preauthorized:
+  emails:
+  - clementolivier@devops.com
