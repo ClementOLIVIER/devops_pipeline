@@ -3,15 +3,16 @@
 Experimenting a full devops pipeline.
 
 The idea is to:
-- Runner a streamlit application inside a docker container
+- Run a Streamlit application inside a docker container
 - Implement a GitLab Flow with main and production branches
 - Deploy the production branch with fly.io
-- Automatize deployment of the production branch with a Github Action workflow
+- Automatize the deployment of the production branch with a Github Action workflow
 
 
 Application feature:
 - Authentification
-- Run a dummy function (that prints anything)
+- Tab1: Run a dummy function (that prints anything)
+- Tab2: Run a dice game
 
 ## Credentials
 **Username**: clementolivier
@@ -32,7 +33,7 @@ streamlit run app/streamlit_app.py
 ```
 
 ### Play with the application
-- Go to http://localhost:8501
+Go to http://localhost:8501
 
 ## Locally with Docker
 ### Build
@@ -46,9 +47,9 @@ docker run -p 8501:8501 devops_pipeline
 ```
 
 ### Play with the application
-- Go to http://localhost:8501
+Go to http://localhost:8501
 
 
 ## Deployed with fly.io
 ### Play with the application
-- Go to https://devops-pipeline.fly.dev
+Go to https://devops-pipeline.fly.dev
