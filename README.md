@@ -17,3 +17,19 @@ Application feature:
 **login**: clementolivier
 
 **password**: SuchAS€cureP@ssw°rd
+
+
+# Run the application
+## Locally
+### Install
+```bash
+pip install -r app/requirements.txt
+```
+
+### Run
+```bash
+streamlit run app/streamlit_app.py
+```
+
+### Play with the application
+- Go to http://localhost:8501
